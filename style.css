@@ -92,9 +92,9 @@ body{
 }
 
 .carousel_img{
-    width: 40%;
+    width: 33%;
     height: 20rem;
-    border-radius: 50%;
+    border-radius: 100%;
 }
 .testimonials_heading{
     margin-top: 20px;
@@ -207,7 +207,7 @@ body{
         margin-bottom: 30px;
     }
     .carousel_img{
-        width: 30%;
+        width: 35%;
         height: 10rem;
         border-radius: 50%;
     }
@@ -247,17 +247,17 @@ body{
     }
     .btn_footer{
         margin-bottom: 20px;
-        padding: 3px!important;
-        font-weight: normal;
-        font-size: 0.7rem;
+        padding: 5px!important;
+        font-weight: bold;
+        font-size: 0.9rem;
     }
     .link{
         padding:0 1rem ;
     }
     .carousel_img{
-        width: 30%;
-        height: 7rem;
-        border-radius: 50%;
+        width: 51%;
+        height: 9rem;
+        border-radius: 100%;
     }
 
 }
