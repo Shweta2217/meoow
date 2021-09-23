@@ -1,0 +1,263 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.container_title{
+    padding: 3% 7%;
+    background-color: #8f8f8f;  
+}
+.headings{    
+    margin-top: 20px;
+     margin-bottom: 80px !important;
+     font-weight: bold;
+     font-size: 2.6rem;
+     text-align: center;
+}
+
+/* Navigation_bar */
+
+.navbar-brand{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    font-size: 2rem;
+}
+.navbar{
+    padding:0 0 4.5rem;
+}
+.nav-item{
+    padding: 0 17px ;
+}
+.nav-link{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.3rem;
+    font-weight: bold;   
+}
+
+/* Title-Section */
+.btn_title{
+    margin: 5% 5% 0% 0%;
+}
+#title{
+    color: white;
+}
+.cat_img{
+    width: 70%;
+    margin-top: -9%;
+    margin-left: 5%;
+}
+.row{
+    margin-right: 0px;
+    margin-left: 0px;
+
+}
+.heading_{
+    font-family: 'Montserrat', sans-serif;
+    font-weight:900;
+    font-size: 3.4rem;
+     line-height: 1.5;
+}
+
+ /* Steps-section */
+
+ #Steps{
+     padding:5% 10%;
+ }
+ .step_box{
+     text-align: center;
+     padding: 5%;
+ }
+ .step_box >h3{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+ }
+ .step_box > p{
+     color: #8f8f8f;
+ }
+ .step_icon{  
+    color: #6d6868;
+    font-size: 3rem;
+    padding-bottom: 15px;
+ }
+ .step_icon:hover{
+     color:#a39f9f;
+ }
+
+/* testimonials-section */
+
+#testimonials{
+    padding: 5% 10%;
+    height: 791px;
+    font-family: 'Ubuntu', sans-serif; 
+    text-align: center;
+}
+
+.carousel_img{
+    width: 40%;
+    height: 20rem;
+    border-radius: 50%;
+}
+.testimonials_heading{
+    margin-top: 20px;
+    font-weight: bold
+}
+.testimonials_p{
+    overflow: hidden;
+
+}
+
+/* Recent-cats-section */
+
+.recent_cat_container{
+    padding: 5% 5%!important;
+    background-color: #8f8f8f;
+    font-family: 'Ubuntu', sans-serif;
+}
+.card{
+    margin: 5% 1%;
+}
+.recent_image{
+    width: 100%;
+    height: 150px;
+}
+.card-body{
+    padding:0;
+    height: 150px;
+    
+}
+.cat_name:hover{
+    text-decoration: none;
+}
+.dot{
+    font-size: 7px;
+    color: #007bff;
+}
+.card-footer{
+    text-align: center;
+}
+.card_paw{
+    text-align: center;
+    background-color: #007bff;
+    height: 250px;
+}
+.paw{
+    padding-top: 12%;
+    font-size: 5rem;
+    color:white;
+}
+.more_cats{
+    padding: 10% 2%;
+    color: white;
+    font-size: 1.3rem;
+}
+
+.meet_them{
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+.meet_them:hover{
+    text-decoration: none;
+}
+
+/* Footer */
+#footer{
+    color: white;
+    background-color: #6d6868;
+    text-align: center;
+}
+.heading-footer{
+    padding-top:30px ;
+    margin-bottom:70px;
+    font-weight: bold;
+    font-size: 2.5rem;   
+}
+.btn_footer{
+    margin-bottom: 20px;
+}
+#copyright{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: white;
+}
+.copyright_text{
+    font-size: 1.2rem;
+    font-weight: 400;
+    margin-bottom: 15px;
+    color: black;
+}
+#Contact{
+    margin: 20px 0;
+}
+.link{
+    padding:0 1.5rem ;
+    font-size: 1.8rem;
+    color:#8f8f8f ;
+}
+.link:hover{
+    color:#6d6868;
+    text-decoration: none;
+}
+
+/* media-quaries */
+@media (max-width:990px){
+    .cat_img{
+       width:20rem;       
+    } 
+    .row{
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .carousel_img{
+        width: 30%;
+        height: 10rem;
+        border-radius: 50%;
+    }
+    #testimonials{
+        padding: 5% 10%;
+        height: 600px;
+        font-family: 'Ubuntu', sans-serif; 
+        text-align: center;
+    }
+}
+@media (max-width:750px){
+    .cat_img{
+   display: none;
+     } 
+    .heading_{
+        font-size: 2rem;
+    }
+    .headings{    
+        font-size: 1.6rem;
+        margin-bottom: 30px!important;
+    }
+    .step_icon{
+        font-size: 2.5rem;
+    }
+    #testimonials{
+        /* padding: 5% 10%; */
+        height: 450px;
+    }
+    .testimonials_heading{
+        margin-top: 20px;
+        font-size: 1.5rem;
+        font-weight: bold
+    }
+    .heading-footer{      
+        margin-bottom: 30px!important;
+        font-size: 1.6rem;   
+    }
+    .btn_footer{
+        margin-bottom: 20px;
+        padding: 3px!important;
+        font-weight: normal;
+        font-size: 0.7rem;
+    }
+    .link{
+        padding:0 1rem ;
+    }
+    .carousel_img{
+        width: 30%;
+        height: 7rem;
+        border-radius: 50%;
+    }
+
+}
