@@ -1,3 +1,3 @@
 # meoow
-Cat Adoption Website
-Technology Used : Html, Css, Bootstrap.
+Cat Adoption Website.
+ Technology Used : Html, Css, Bootstrap.
